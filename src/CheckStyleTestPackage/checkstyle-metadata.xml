@@ -3,19 +3,19 @@
 "-//eclipse-cs//DTD Check Metadata 1.1//EN"
 "https://checkstyle.org/eclipse-cs/dtds/checkstyle-metadata_1_1.dtd">
 <checkstyle-metadata>
-    <rule-group-metadata name="My custom checks123" priority="1600">
+    <rule-group-metadata name="Milestone 1 Checks" priority="1600">
         <description>%MyCustomChecks.desc</description>
 
 
         <!-- Loop count check -->
-        <rule-metadata name="%LoopCount.name" internal-name="LoopCount" parent="TreeWalker">
-            <alternative-name internal-name="sampleproject.checks.LoopCountCheck" />
+        <rule-metadata name="%LoopCount.name" internal-name="NumberOfLoopsCheck" parent="TreeWalker">
+            <alternative-name internal-name="CheckStyleTestPackage.NumberOfLoopsCheck" />
             <description>%LoopCount.desc</description>
         </rule-metadata>
 
         <!-- Comment count check -->
-        <rule-metadata name="%CommentCount.name" internal-name="CommentCount" parent="TreeWalker">
-            <alternative-name internal-name="sampleproject.checks.CommentCountCheck" />
+        <rule-metadata name="%CommentCount.name" internal-name="NumberOfCommentsCheck" parent="TreeWalker">
+            <alternative-name internal-name="CheckStyleTestPackage.NumberOfCommentsCheck" />
             <description>%CommentCount.desc</description>
         </rule-metadata>
     </rule-group-metadata>
