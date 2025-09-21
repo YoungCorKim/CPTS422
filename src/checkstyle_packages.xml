@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE checkstyle-packages PUBLIC
+    "-//Checkstyle//DTD Package Names Configuration 1.0//EN"
+    "https://checkstyle.org/dtds/packages_1_0.dtd">
+
+<checkstyle-packages>
+    <!--
+      Define the Java packages where your custom Checkstyle module classes (checks, filters) reside here.
+      See https://checkstyle.org/config.html#Packages for more info.
+      -->
+    <package name="CheckStyleTestPackage">
+        <package name="dummysubpackage"/>
+    </package>
+</checkstyle-packages>

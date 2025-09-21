@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE checkstyle-metadata PUBLIC
+"-//eclipse-cs//DTD Check Metadata 1.1//EN"
+"https://checkstyle.org/eclipse-cs/dtds/checkstyle-metadata_1_1.dtd">
+<checkstyle-metadata>
+    <rule-group-metadata name="My custom checks123" priority="1600">
+        <description>%MyCustomChecks.desc</description>
+
+
+        <!-- Loop count check -->
+        <rule-metadata name="%LoopCount.name" internal-name="LoopCount" parent="TreeWalker">
+            <alternative-name internal-name="sampleproject.checks.LoopCountCheck" />
+            <description>%LoopCount.desc</description>
+        </rule-metadata>
+
+        <!-- Comment count check -->
+        <rule-metadata name="%CommentCount.name" internal-name="CommentCount" parent="TreeWalker">
+            <alternative-name internal-name="sampleproject.checks.CommentCountCheck" />
+            <description>%CommentCount.desc</description>
+        </rule-metadata>
+    </rule-group-metadata>
+</checkstyle-metadata>
