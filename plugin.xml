@@ -2,9 +2,14 @@
 <?eclipse version="3.4"?>
 <plugin>
 
-    <!-- This plugin provides custom Checkstyle modules. -->
-    <extension
-          point="net.sf.eclipsecs.core.checkstyleAddonProvider">
-    </extension>
+   <!-- Register our custom checks with Checkstyle -->
+   <extension
+         point="net.sf.eclipsecs.core.checkstyleAddonProvider">
+      <checkstyleAddon
+            id="CheckStyleTest.addon"
+            name="My Custom Checks"
+            metadata="checkstyle-metadata.xml">
+      </checkstyleAddon>
+   </extension>
 
 </plugin>

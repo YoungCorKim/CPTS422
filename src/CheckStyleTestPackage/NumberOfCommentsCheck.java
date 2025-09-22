@@ -14,6 +14,10 @@ public class NumberOfCommentsCheck extends AbstractCheck {
             TokenTypes.BLOCK_COMMENT_BEGIN
         };
     }
+    @Override
+    public boolean isCommentNodesRequired(){
+    	return true;
+    }
 
     @Override
     public void beginTree(DetailAST rootAST) {

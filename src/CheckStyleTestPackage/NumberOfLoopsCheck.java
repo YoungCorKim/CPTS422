@@ -31,7 +31,7 @@ public class NumberOfLoopsCheck extends AbstractCheck
 
     @Override
     public void finishTree(DetailAST rootAST) {
-        log(0, "Total number of loops: " + loopCount);
+        log(rootAST.getLineNo(), "Total number of loops: " + loopCount);
     }
 
     @Override

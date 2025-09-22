@@ -3,7 +3,7 @@
 "-//eclipse-cs//DTD Check Metadata 1.1//EN"
 "https://checkstyle.org/eclipse-cs/dtds/checkstyle-metadata_1_1.dtd">
 <checkstyle-metadata>
-    <rule-group-metadata name="Milestone 1 Checks" priority="1600">
+    <rule-group-metadata name="Milestone 1" priority="1600">
         <description>%MyCustomChecks.desc</description>
 
 
