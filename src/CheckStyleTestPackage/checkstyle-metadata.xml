@@ -18,5 +18,42 @@
             <alternative-name internal-name="CheckStyleTestPackage.NumberOfCommentsCheck" />
             <description>%CommentCount.desc</description>
         </rule-metadata>
+        
+        <!-- Comment line count check -->
+        <rule-metadata name="%CommentLineCount.name" internal-name="NumberOfCommentLinesCheck" parent="TreeWalker">
+            <alternative-name internal-name="CheckStyleTestPackage.NumberOfCommentLinesCheck" />
+            <description>%CommentLineCount.desc</description>
+        </rule-metadata>
+        
+        <!-- Operator count check -->
+        <rule-metadata name="%OperatorCount.name" internal-name="NumberOfOperatorsCheck" parent="TreeWalker">
+            <alternative-name internal-name="CheckStyleTestPackage.NumberOfOperatorsCheck" />
+            <description>%OperatorCount.desc</description>
+        </rule-metadata>
+        
+        <!-- Operand count check -->
+        <rule-metadata name="%OperandCount.name" internal-name="NumberOfOperandsCheck" parent="TreeWalker">
+            <alternative-name internal-name="CheckStyleTestPackage.NumberOfOperandsCheck" />
+            <description>%OperandCount.desc</description>
+        </rule-metadata>
+        
+        <!-- Expression count check -->
+        <rule-metadata name="%ExpressionCount.name" internal-name="NumberOfExpressionsCheck" parent="TreeWalker">
+            <alternative-name internal-name="CheckStyleTestPackage.NumberOfExpressionsCheck" />
+            <description>%ExpressionCount.desc</description>
+        </rule-metadata>
+        
+        <!-- Halstead Length check -->
+        <rule-metadata name="%HalsteadLength.name" internal-name="HalsteadLengthCheck" parent="TreeWalker">
+            <alternative-name internal-name="CheckStyleTestPackage.HalsteadLengthCheck" />
+            <description>%HalsteadLength.desc</description>
+        </rule-metadata>
+        
+        <!-- Halstead Volume check -->
+        <rule-metadata name="%HalsteadVolume.name" internal-name="HalsteadVolumeCheck" parent="TreeWalker">
+            <alternative-name internal-name="CheckStyleTestPackage.HalsteadVolumeCheck" />
+            <description>%HalsteadVolume.desc</description>
+        </rule-metadata>
+        
     </rule-group-metadata>
 </checkstyle-metadata>
